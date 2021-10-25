@@ -1,0 +1,47 @@
+body{
+    background-color: azure;
+    display: flex;
+    justify-content: center;
+}
+.Container1{
+    border: black 8px dashed;
+    width: 80%;
+    height: 400px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 100%;
+    grid-gap: 10px 10px;
+    justify-content: center;
+    
+}
+.ejer1{
+    background-color: rgb(44, 41, 41);
+
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 50% 50%;
+    justify-content: center;
+    align-items: center;
+}
+.tex1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:30px;
+    color: aliceblue;
+    text-align: justify;
+}
+.tex{
+    font-family: 'Times New Roman', Times, serif;
+    font-size:15px;
+    color: aliceblue;
+    text-align: justify;
+}
+
+.ejer2{
+    background-color: rgb(44, 41, 41);
+    display: grid;
+    grid-template-columns: 80%;
+    grid-template-rows: 1fr 1fr;
+    justify-content: center;
+    align-items: center;
+
+}
